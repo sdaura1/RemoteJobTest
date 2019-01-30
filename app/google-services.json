@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "949454299800",
+    "firebase_url": "https://remotejobtest-76a4f.firebaseio.com",
+    "project_id": "remotejobtest-76a4f",
+    "storage_bucket": "remotejobtest-76a4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949454299800:android:2f3a0028c56bb9c8",
+        "android_client_info": {
+          "package_name": "com.sani.shahid.remotejobtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949454299800-l8po8tcmlf6vblagv9kk2gehjvggug2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sani.shahid.remotejobtest",
+            "certificate_hash": "2336a476a8a52213e36b09c72f3ecd07aed445a8"
+          }
+        },
+        {
+          "client_id": "949454299800-9eqd62kdqjoupqtm8bl7mp9p243oo8gu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKlXjgq-YF5KN4uMx7jqi0GVriODzCLSQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949454299800-9eqd62kdqjoupqtm8bl7mp9p243oo8gu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

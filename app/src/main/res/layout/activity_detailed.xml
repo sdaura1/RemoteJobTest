@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detailed">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginTop="180dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardElevation="5dp"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailedhallName"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:textSize="25sp"
+                android:text="Hall Name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seatLayout"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:text="Seat Layout"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="2dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher_round"
+                android:id="@+id/detailHallImage"/>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+    <!--<android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numOfScreen="@+numOfScreen/detailHallName"
+            android:layout_margin="8dp"
+            android:padding="4dp"
+            android:textSize="25sp"
+            android:text="Hall Name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numOfScreen="@+numOfScreen/detailHallCapacity"
+            android:layout_margin="8dp"
+            android:padding="4dp"
+            android:textSize="25sp"
+            android:text="Hall Capacity"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numOfScreen="@+numOfScreen/detailHallType"
+            android:layout_margin="8dp"
+            android:padding="4dp"
+            android:textSize="25sp"
+            android:text="Hall Type"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>-->
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bookButton"
+        android:textColor="@android:color/black"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

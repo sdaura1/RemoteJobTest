@@ -1,0 +1,15 @@
+{
+  "Cinema" : {
+    "-LVslJA6mqCdU0Fx4twm" : {
+      "Cinema_Id" : "CIN114",
+      "Current_Movies" : [ "Infinity War" ],
+
+      "Name" : "Cinema1",
+      "Number_Of_Screens" : 5,
+      "Screen" : [ {
+        "SeatLayout" : "UUAAAAAAAAAAAAAUUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAA",
+        "time" : "8:30"
+      }, {
+        "SeatLayout" : "UUAAAAAAAAAAAAAUUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAA",
+        "time" : "10:30"
+      } ]}}}
